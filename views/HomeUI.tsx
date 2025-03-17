@@ -7,8 +7,8 @@ function HomeUI({ navigation }: { navigation: NavigationProp<any> }) {
   return (
     <View style={{ flex: 1, alignItems: "center", backgroundColor: "#390050" }}>
       <Image
-        style={{ width: 250, height: 250, marginTop: 120 }}
-        source={require("../assets/img3.png")}
+        style={{ width: 250, height: 300, marginTop: 50 }}
+        source={require("../assets/mina3.png")}
       />
       <View style={{ height: 100 }}></View>
       <TouchableOpacity
