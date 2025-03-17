@@ -19,7 +19,7 @@ function B2Page({ navigation }: { navigation: NavigationProp<any> }) {
         backgroundColor: "white",
       }}
     >
-      <Image source={require("../assets/image.png")} style={styles.Image} />
+      <Image source={require("../assets/H.png")} style={styles.Image} />
       <View style={{ height: 60 }}></View>
 
       <Text style={{ fontSize: 25, fontWeight: "bold" }}>

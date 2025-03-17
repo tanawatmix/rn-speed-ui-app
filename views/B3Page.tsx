@@ -23,7 +23,7 @@ function B3Page({ navigation }: { navigation: NavigationProp<any> }) {
       }}
     >
       <View></View>
-      <Image source={require("../assets/image.png")} style={styles.Image} />
+      <Image source={require("../assets/H.png")} style={styles.Image} />
       <View style={{ height: 60 }}></View>
 
       <Text style={{ fontSize: 27, fontWeight: "bold" }}>

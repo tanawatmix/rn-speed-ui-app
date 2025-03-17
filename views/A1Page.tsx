@@ -19,8 +19,8 @@ function A1Page({ navigation }: { navigation: NavigationProp<any> }) {
         <View style={{ height: 400 }}></View>
 
         <Image
-          style={{ width: 160, height: 160, resizeMode: "contain" }}
-          source={require("../assets/img1.png")}
+        style={{ width: 100, height: 100, marginTop: 5 }} 
+        source={require("../assets/Fuzz.png")} 
         ></Image>
         <View style={{ height: 30 }}></View>
 

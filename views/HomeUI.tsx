@@ -15,14 +15,18 @@ function HomeUI({ navigation }: { navigation: NavigationProp<any> }) {
         style={styles.buttonA}
         onPress={() => navigation.navigate("A1Page")} // ใช้ navigation.navigate()
       >
-        <Image source={require("../assets/img1.png")} />
+        <Image 
+        style={{ width: 100, height: 100, marginTop: 5 }} 
+        source={require("../assets/Fuzz.png")} />
       </TouchableOpacity>
       <View style={{ height: 60 }}></View>
       <TouchableOpacity
         style={styles.buttonB}
         onPress={() => navigation.navigate("B1Page")} // ใช้ navigation.navigate()
       >
-        <Image source={require("../assets/img2.png")} />
+        <Image
+        style={{ width: 50, height: 50, marginTop: 5 }} 
+        source={require("../assets/H.png")} />
       </TouchableOpacity>
     </View>
   );

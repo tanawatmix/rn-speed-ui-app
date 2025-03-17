@@ -22,7 +22,7 @@ function B1Page({ navigation }: { navigation: NavigationProp<any> }) {
         <TouchableOpacity onPress={() => navigation.navigate("B2Page")}>
           <Image
             style={{ width: 150, height: 150 }}
-            source={require("../assets/img2.png")}
+            source={require("../assets/H.png")}
           />
         </TouchableOpacity>
         <View style={{ height: 20 }}></View>
